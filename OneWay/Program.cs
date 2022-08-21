@@ -33,13 +33,11 @@ namespace OneWay
             {
                 if(w1[i] != w2[j])
                 {
-                    if(oneChange == false)
-                        oneChange = true;
-                    else                  
-                        return false; 
+                    if(oneChange) return false;
+                    oneChange = true;
 
                     if(w1.Length > w2.Length)
-                        j--;                  
+                        i++;                  
                 }
 
                 j++;
