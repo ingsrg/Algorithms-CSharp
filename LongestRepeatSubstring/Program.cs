@@ -7,7 +7,7 @@ namespace LongestRepeatSubstring
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(LongestRepeatSubstring("banana"));
+            Console.WriteLine(LongestRepeatSubstring("abcdef"));
         }
 
         static private string LongestRepeatSubstring(string s)
