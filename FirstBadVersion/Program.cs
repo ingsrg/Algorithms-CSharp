@@ -9,7 +9,7 @@ namespace FirstBadVersion
             Console.WriteLine("Hello World!");
         }
 
-        public int FirstBadVersion(int n) {
+         public int FirstBadVersion(int n) {
             int left = 1;
             int right = n;
             
